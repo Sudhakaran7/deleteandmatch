@@ -1,0 +1,49 @@
+Ahmeed is fond of strings, he have given two strings, here he have to check whether the two strings are euqal with the following condition:
+both the string contains '#' a backspace character, so he have to delete the charatcter before th to the backspace in both the string and match the stringd
+
+Input Description:
+Two strings seperated by space
+
+Output Description:
+Print "True" if the are equal or "False"
+
+Sample Input:
+a#b ce#
+
+Sample Output:
+False
+
+Explanation:
+deleting process in each string:
+1) a#b-> b
+2) ce#-> c
+So they are not equal
+
+Sample Input:
+ef#rt edg##rg#t
+
+Sample Output:
+True
+
+Explanation:
+1) ef#rt -> ert
+2) edg##rg#t -> eg#rg#t -> erg#t -> ert
+So both are same
+
+Sample Input:
+gy#uvg#i s#gug#vi
+
+Sample Output:
+True
+
+Sample Input:
+q#er#t g#uti#r
+
+Sample Output:
+False
+
+Sample Input:
+v#duhi#y#t ja#ms##gg
+
+Sample Output:
+False
